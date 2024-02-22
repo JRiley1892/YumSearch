@@ -1,0 +1,128 @@
+body {
+  background: rgb(255, 211, 165) 100%;
+}
+
+.search {
+  font-family: "Pacifico", cursive;
+  font-size: 40px;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff,
+    1px 1px 0 #ffffff;
+  position: absolute;
+}
+.searchbar {
+  position: absolute;
+  left: 25%;
+}
+.searchbar input {
+  min-width: 450px;
+  border: none;
+  border-radius: 5px;
+  min-height: 60px;
+  font-size: 32px;
+}
+.searchbutton {
+  font-family: "Pacifico", cursive;
+  /* margin-top: 100px; */
+  font-size: 32px;
+  background-color: #ffffee;
+  border: none;
+  border-radius: 5px;
+  min-height: 50px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: absolute;
+  top: 100px;
+
+  min-width: 100%;
+  padding: 4rem;
+  background-color: white;
+  /* box-shadow: 10px 10px 40px 5px #ffffee; */
+  /* margin-top: 5rem; */
+  display: flex;
+  border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-container h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 2rem;
+  color: #2c2c2c;
+}
+
+.content-container p {
+  font-family: sans-serif;
+  line-height: 1.4;
+  /* margin-bottom: 2rem; */
+  color: #444444;
+  /* width: 20rem; */
+}
+
+.content-container button {
+  font-family: "Pacifico", cursive;
+  background-color: #ffffee;
+  border-radius: 10px;
+  font-size: 20px;
+  min-height: 50px;
+}
+
+.img {
+  transform: translateX(-50px);
+  /* margin-top: 1rem; */
+  min-width: 100px;
+  min-height: 100px;
+  border-radius: 100px;
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.E5XRsXOXAY5pFnhMKDoU8gHaEo%26pid%3DApi&f=1&ipt=2f349d77d5ea707c223fc3b544be8b0aeee40d2a63cb21e0372efc7081f047a5&ipo=images");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 100px;
+}
+
+.ingredients {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.ingredients span {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.ing {
+  padding: 10px 20px;
+  font-size: 30px;
+  border: 2px solid #ff6e00;
+  color: #ff6e00;
+  font-family: sans-serif;
+  border-radius: 100px;
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    max-width: 1200px;
+    margin-left: 30%;
+    justify-items: center;
+  }
+
+  .info {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    max-width: 1200px;
+    margin-left: 10%;
+    justify-items: center;
+  }
+}
